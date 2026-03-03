@@ -3,8 +3,6 @@ name: Cortex CLI Code Scan
 on:
   schedule:
     - cron: "*/30 * * * *"
-    branches:
-      - main
   workflow_dispatch:
 
 env:
